@@ -1,0 +1,41 @@
+/* mobile */
+@media(max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #nav > li{
+        display: block;
+    }#header .search-btn{
+        display: none;
+    }
+    #nav .subnav{
+        position: initial;
+        background: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+        
+    }
+    .col-third{
+        width: 100%;
+    }
+    .s-col-ful{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+}
+@media(min-width: 741px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+} 
